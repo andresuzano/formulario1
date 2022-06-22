@@ -1,0 +1,76 @@
+body{
+    background-image: url(wallpaper.jpg);
+}
+
+.container{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.578);
+    padding: 10px;
+    padding-top: 1px;
+    }
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 215, 0);
+}
+
+fieldset{
+    border: 5px solid rgb(0, 0, 0);
+    border-style: double;
+}
+
+legend{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+input.text{
+    margin-bottom:1px;
+    margin-top: 5px;
+    border: none;
+    outline: none; 
+}
+
+input.submit{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 25px;
+}
+
+select{
+    outline: none;
+    border: none; 
+}
+
+input.text{
+    width: 50%;
+}
+
+label.nome_mail{
+    font-weight: bold;
+}
+
+
+
+

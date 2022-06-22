@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <header>
+        <h1>Curso online de música</h1>
+    </header>
+
+        <section>
+            <div class="container">
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <form action="cadastro_efetuado.html" method="post">
+                        <div>
+                            <label class="nome_mail" for="nome">Nome</label>
+                            <input class="text" type="text" name="nome" id="nome" required>
+                        </div>
+                        <div>
+                            <label class="nome_mail" for="email">Email</label>
+                            <input class="text" type="text" name="email" id="email" required>
+                        </div>
+                        <div>
+                           <p>Selecione o curso pretendido</p>               
+                            <label for="violao">Violão</label>
+                            <input type="radio" name="curso" id="violao" value="vio">
+
+                            <label for="guitarra">Guitarra</label>
+                            <input type="radio" name="curso" id="guitarra" value="gui">
+
+                            <label for="contrabaixo">Contrabaixo</label>
+                            <input type="radio" name="curso" id="contrabaixo" value="con">
+
+                            <label for="teclado">Teclado</label>
+                            <input type="radio" name="curso" id="teclado" value="tec">
+
+                            <label for="bateria">Bateria</label>
+                            <input type="radio" name="curso" id="bateria" value="bat"> 
+                        </div>
+                        <div>
+                            <p>Tem experiência?</p>
+                            <select name="exp" id="exp">
+                                <option value="sim">Sim</option>
+                                <option value="nao">Não</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="submit" type="submit" value="Enviar">
+                        </div>
+
+                    </form>
+                </fieldset>
+            </div>        
+        </section>
+   
+</body>
+</html>
